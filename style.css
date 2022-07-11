@@ -1,0 +1,129 @@
+body {
+    background-color: silver;
+}
+a.page:hover{
+    background-color: rgb(208, 172, 172);
+}
+div.align-page{
+    margin-left: 5%;
+}
+
+h2.logo-name-header{
+    font-size: 50px;
+    font-family: Gidole;
+}
+button.logo-image{
+    width:900px;
+    height:250px;
+    display: block;
+    font-family: "Gidole";
+    background-color: darkred;
+    color: green;
+    cursor: pointer;
+    margin-left: 77px;
+    margin-bottom: 1px;
+}
+button.logo-image:hover{
+    background-color: lightgreen;
+    border-radius: 2px;
+    margin: 1px silver solid;
+}
+
+button.brand:hover
+{
+    background-color: darkred;
+    color: green;
+    border: 2px solid;
+    transition: background-color 1s;
+    border-color: rgb(134, 31, 31);
+}
+.menu-button{
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 5px;
+    text-align: center;
+    background-color: brown;
+    height: 30px;
+    width: 19%;
+    color: rgb(253, 165, 0);
+    cursor: pointer;
+}
+.menu-button:hover{
+    text-decoration: underline;
+    background-color: rgb(157, 77, 77);
+}
+h2.logo-name{
+    text-align: center;
+    font-family: Gidole;
+    color: darkgreen;
+    margin: 1px;
+}
+div.logo{
+    background-image: url("logo.jpeg");
+    background-position: right;
+        background-position-x: right;
+        background-position-y: center;
+    font-family: sans-serif;
+    background-size: cover;
+    height: 220px;
+    width: 960px;
+    text-align:justify;
+    margin-left: 157px;
+    padding-top: 37px;
+}
+div.index-description{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 4fr;
+    align-items:center; 
+}
+
+img.index-image-png{
+    margin-bottom: 10px;
+}
+h3.index-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(41, 94, 41)
+}
+div.footer{
+    background-color: rgb(134, 207, 219);
+    border: 1px solid;
+    border-color: aqua;
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 27px;
+}
+
+div.name{
+    font-weight: bold;
+}
+div.inf{
+    font-style: italic;
+    color: darkmagenta;
+}
+
+a.redirect{
+    color: brown;
+}
+a{
+    color: brown;
+}
+a:hover{
+    background-color: lightcoral;
+}
+a.redirect:hover{
+    color: lightpink;
+}
+@font-face {
+    font-family: "Gidole";
+    src: url(Gidole-master/GidoleFont/Gidole-Regular.ttf);
+}
+h3.summary{
+    color: green;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1.5pt;
+    font-size: 17px;
+}
