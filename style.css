@@ -127,3 +127,6 @@ p{
     word-spacing: 1.5pt;
     font-size: 17px;
 }
+h1.location-header{
+    padding-left: 50px;
+}
