@@ -78,9 +78,12 @@ div.index-description{
     align-items:center; 
 }
 
-img.index-image-png{
-    margin-bottom: 10px;
+div.product-listing
+{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
 }
+
 h3.index-heading{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(41, 94, 41)
