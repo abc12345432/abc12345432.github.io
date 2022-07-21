@@ -77,13 +77,22 @@ div.index-description{
     grid-template-columns: 1fr 4fr;
     align-items:center; 
 }
+ul.product-listing{
+    background-color: lightpink;
+    font-weight:777;
+    color: seagreen;
+}
 
 div.product-listing
 {
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 7fr 4fr;
 }
 
+h3.product-listing-heading{
+    background-color: goldenrod;
+    color: darkgreen;
+}
 h3.index-heading{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(41, 94, 41)
