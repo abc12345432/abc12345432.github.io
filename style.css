@@ -88,6 +88,7 @@ div.product-listing
 {
     display: grid;
     grid-template-columns: 7fr 4fr;
+    align-content:flex-end;
 }
 
 h3.product-listing-heading{
