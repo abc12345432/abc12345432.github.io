@@ -76,7 +76,7 @@ div.index-description{
     display: grid;
     padding: 10px;
     grid-template-columns: 1fr 4fr;
-    align-items:center; 
+    align-items: top; 
 }
 ul.product-listing{
     background-color: lightpink;
